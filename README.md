@@ -6,6 +6,12 @@ Content SDK to be convenience  layer either for API or for UI Rendering.
 
 The project is divided into 2 moduels:
 
+content_api_sdk
+
+    implementation('com.github.developer-bhumika:content_sdk:1.0') {
+        transitive = true
+    }
+
 1. __content_api_sdk__ - a code that queries Mobitech content API SDK and provide a callback to process the returned java object.
  Use this module if you want to cusomize the UI layout.
  To use this project, add to your gradle.build the dependency:
